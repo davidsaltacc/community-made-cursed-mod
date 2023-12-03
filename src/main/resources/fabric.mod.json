@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "communitymade",
+	"version": "${version}",
+	"name": "Communitymade Cursed Mod",
+	"description": "Community-made cursed mod. As the title says, obviously. Things in the mod rn: \n- all mobs are dinnerbonified\n- squids are milkable",
+	"authors": [
+		"justacoder"
+	],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.justacoder.communitymade.FabricInitializer"
+		]
+	},
+	"mixins": [
+		"communitymade.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.1",
+		"java": ">=17"
+	}
+}

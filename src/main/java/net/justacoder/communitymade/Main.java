@@ -9,6 +9,6 @@ public class Main {
     public static String MOD_ID = "communitymade";
 
     public static void initialize() {
-        // test
+
     }
 }

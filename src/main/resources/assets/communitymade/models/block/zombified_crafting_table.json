@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "down": "communitymade:block/zombified_oak_planks",
+        "east": "communitymade:block/zombified_crafting_table_side",
+        "north": "communitymade:block/zombified_crafting_table_front",
+        "particle": "communitymade:block/zombified_crafting_table_front",
+        "south": "communitymade:block/zombified_crafting_table_side",
+        "up": "communitymade:block/zombified_crafting_table_top",
+        "west": "communitymade:block/zombified_crafting_table_front"
+    }
+}

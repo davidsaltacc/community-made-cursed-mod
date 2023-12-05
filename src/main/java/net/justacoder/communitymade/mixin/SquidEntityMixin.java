@@ -14,7 +14,7 @@ import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Mixin;
 
 @Mixin(SquidEntity.class)
-public class SquidEntityMixin extends WaterCreatureEntity {
+public abstract class SquidEntityMixin extends WaterCreatureEntity {
     protected SquidEntityMixin(EntityType<? extends WaterCreatureEntity> entityType, World world) {
         super(entityType, world);
     }

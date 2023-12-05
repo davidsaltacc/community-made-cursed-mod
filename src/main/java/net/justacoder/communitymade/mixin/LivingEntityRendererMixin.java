@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(LivingEntityRenderer.class)
-public class LivingEntityRendererMixin {
+public abstract class LivingEntityRendererMixin {
 
     @Inject(method = "shouldFlipUpsideDown", at = @At("HEAD"), cancellable = true)
     private static void onShouldFlipUpsideDown(LivingEntity entity, CallbackInfoReturnable<Boolean> cir) {

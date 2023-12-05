@@ -5,6 +5,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.CraftingTableBlock;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LightningEntity;
+import net.minecraft.entity.mob.ZombieEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
@@ -25,7 +26,14 @@ public abstract class CraftingTableBlockMixin {
             LightningEntity entity = new LightningEntity(EntityType.LIGHTNING_BOLT, world);
             entity.setPosition(pos.toCenterPos());
             world.spawnEntity(entity);
-            world.setBlockState(pos, ModBlocks.ZCT_BLOCK.getDefaultState());
+            for (int i = 0; i < 5; i++) {
+                ZombieEntity entity2 = new ZombieEntity(world);
+                entity2.setPosition(player.getPos());
+                world.spawnEntity(entity2);
+            }
+            if (state.getBlock() != ModBlocks.ZCT_BLOCK) {
+                world.setBlockState(pos, ModBlocks.ZCT_BLOCK.getDefaultState());
+            }
         }
     }
 

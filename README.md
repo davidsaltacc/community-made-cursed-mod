@@ -2,6 +2,8 @@
 
 cursed mod
 
+SLIGHT MOTION SICKNESS WARNING
+
 done:
 - squids are milkable
 - all entities are dinnerbone-ified
@@ -16,7 +18,7 @@ done:
 - you can lay in beds in the nether/end, but they actually explode after a second
 - nether achievement is now "Holy Hell!"
 - the camera is... wobbly. i don't even know.
-- f3 takes a giant (~10x normal size) screenshot (in .tga format, ask mojang why)
+- f6 takes a giant (~10x normal size) screenshot (in .tga format, ask mojang why)
 - breaking blocks creates an explosion
-
-
+- limbs are going fast speeds
+- entity parts are rendered upside down (negating the dinnerbone effect- kind of.)

@@ -14,7 +14,7 @@ public abstract class GameRendererMixin {
     @Inject(method = "renderWorld", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/util/math/MatrixStack;multiply(Lorg/joml/Quaternionf;)V", ordinal = 3, shift = At.Shift.AFTER))
     private void onRenderWorld(float tickDelta, long limitTime, MatrixStack matrices, CallbackInfo ci) {
         float time = System.currentTimeMillis() % 2000 / 1000f;
-        matrices.multiply(new Quaternionf().rotationX((float) Math.sin(time * Math.PI * 2) * .04f));
-        matrices.multiply(new Quaternionf().rotationZ((float) Math.cos(time * Math.PI * 2) * .04f));
+        matrices.multiply(new Quaternionf().rotationX((float) Math.sin(time * Math.PI * 2) * .025f));
+        matrices.multiply(new Quaternionf().rotationZ((float) Math.cos(time * Math.PI * 2) * .025f));
     }
 }

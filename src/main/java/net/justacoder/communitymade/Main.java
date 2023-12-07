@@ -29,7 +29,7 @@ public abstract class Main {
     public static Logger LOGGER = LoggerFactory.getLogger("CommunityMade");
     public static String MOD_ID = "communitymade";
 
-    public static KeyBinding giantScreenshitBind = new KeyBinding("giant_screenshot", GLFW.GLFW_KEY_F3, "communitymade");
+    public static KeyBinding giantScreenshitBind = new KeyBinding("giant_screenshot", GLFW.GLFW_KEY_F6, "communitymade");
 
     public static void initialize() {
         LOGGER.info("Starting Cursedcraft...");

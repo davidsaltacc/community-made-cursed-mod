@@ -12,6 +12,7 @@
         "ItemMixin",
         "ItemSettingsMixin",
         "ItemStackMixin",
+        "LimbAnimatorMixin",
         "LivingEntityMixin",
         "MinecraftServerMixin",
         "PigEntityMixin",
@@ -28,6 +29,7 @@
         "GameRendererMixin",
         "LivingEntityRendererMixin",
         "MinecraftClientMixin",
+        "ModelPartMixin",
         "TitleScreenMixin",
         "WindowMixin"
     ],

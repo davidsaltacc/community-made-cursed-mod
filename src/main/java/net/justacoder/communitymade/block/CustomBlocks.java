@@ -11,9 +11,9 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
-public abstract class ModBlocks {
+public abstract class CustomBlocks {
 
-    public static ZombifiedCraftingTableBlock ZCT_BLOCK = new ZombifiedCraftingTableBlock(AbstractBlock.Settings.create().mapColor(MapColor.PALE_GREEN).instrument(Instrument.BASS).strength(2.5f).sounds(BlockSoundGroup.SCULK).burnable());
+    public static ZombifiedCraftingTableBlock ZCT_BLOCK = new ZombifiedCraftingTableBlock(AbstractBlock.Settings.create().mapColor(MapColor.PALE_GREEN).instrument(Instrument.BASS).strength(2.5f).sounds(BlockSoundGroup.SCULK));
 
     public static void addBlocks() {
         Registry.register(Registries.BLOCK, new Identifier(Main.MOD_ID, "zombified_crafting_table"), ZCT_BLOCK);

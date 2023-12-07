@@ -1,3 +1,3 @@
 {
-    "parent": "minecraft:block/crafting_table"
+    "parent": "communitymade:block/zombified_crafting_table"
 }

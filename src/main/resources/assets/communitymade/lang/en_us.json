@@ -1,0 +1,9 @@
+{
+    "death.attack.cancer": "%1$s died of cancer",
+    "death.attack.tool_suicide": "%1$s committed suicide from growing attached to their item and breaking it",
+
+    "item.communitymade.zombified_crafting_table": "Zombified Crafting Table",
+    "block.communitymade.zombified_crafting_table": "Zombified Crafting Table",
+
+    "advancements.story.enter_the_nether.title": "Holy Hell!"
+}

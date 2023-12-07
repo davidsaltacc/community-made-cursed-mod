@@ -9,7 +9,4 @@ import java.util.function.BooleanSupplier;
 
 @Mixin(MinecraftServer.class)
 public abstract class MinecraftServerMixin {
-    @Inject(at = @At(value = "INVOKE", target = "Lnet/minecraft/server/MinecraftServer;tickWorlds(Ljava/util/function/BooleanSupplier;)V"), method = "tick")
-    private void onStartTick(BooleanSupplier shouldKeepTicking, CallbackInfo ci) {
-    }
 }

@@ -11,6 +11,6 @@ public abstract class ServerPlayNetworkHandlerMixin {
     @ModifyConstant(method = "onCreativeInventoryAction", constant = @Constant(intValue = 64))
     private int modifyStackThingyIdk(int constant) {
         return 67;
-    }
+    } // required for things to not break in a certain case
 
 }

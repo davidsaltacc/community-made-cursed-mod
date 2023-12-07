@@ -1,10 +1,11 @@
 package net.justacoder.communitymade.block;
 
-import net.minecraft.block.CraftingTableBlock;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
 
-public class ZombifiedCraftingTableBlock extends CraftingTableBlock {
+public class ZombifiedCraftingTableBlock extends Block {
 
-    public ZombifiedCraftingTableBlock(Settings settings) {
+    public ZombifiedCraftingTableBlock(AbstractBlock.Settings settings) {
         super(settings);
     }
 }

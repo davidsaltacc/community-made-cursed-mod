@@ -3,20 +3,31 @@
     "package": "net.justacoder.communitymade.mixin",
     "compatibilityLevel": "JAVA_17",
     "mixins": [
+        "BedBlockMixin",
+        "BlockMixin",
+        "CraftingResultSlotMixin",
         "CraftingTableBlockMixin",
+        "CreeperEntityMixin",
         "InventoryMixin",
         "ItemMixin",
         "ItemSettingsMixin",
         "ItemStackMixin",
         "LivingEntityMixin",
         "MinecraftServerMixin",
+        "PigEntityMixin",
+        "PlayerEntityMixin",
+        "ServerPlayerEntityMixin",
         "ServerPlayNetworkHandlerMixin",
         "ServerWorldMixin",
         "SpawnGroupMixin",
-        "SquidEntityMixin"
+        "SquidEntityMixin",
+        "TagPredicateMixin"
     ],
     "client": [
+        "ClientPlayNetworkHandlerMixin",
+        "GameRendererMixin",
         "LivingEntityRendererMixin",
+        "MinecraftClientMixin",
         "TitleScreenMixin",
         "WindowMixin"
     ],
